@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FirstDotNetApplication_DataLayer\FirstDotNetApplication_DataLayer.csproj" />
+    <ProjectReference Include="..\FirstDotNetApplication_RepositoryLayer\FirstDotNetApplication_RepositoryLayer.csproj" />
+  </ItemGroup>
+
+</Project>

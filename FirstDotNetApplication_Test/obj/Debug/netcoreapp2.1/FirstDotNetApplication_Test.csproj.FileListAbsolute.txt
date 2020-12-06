@@ -1,0 +1,16 @@
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\bin\Debug\netcoreapp2.1\FirstDotNetApplication_Test.deps.json
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\bin\Debug\netcoreapp2.1\FirstDotNetApplication_Test.dll
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\bin\Debug\netcoreapp2.1\FirstDotNetApplication_Test.pdb
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\bin\Debug\netcoreapp2.1\FirstDotNetApplication_DataLayer.dll
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\bin\Debug\netcoreapp2.1\FirstDotNetApplication_RepositoryLayer.dll
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\bin\Debug\netcoreapp2.1\FirstDotnetApplication_ServiceLayer.dll
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\bin\Debug\netcoreapp2.1\FirstDotNetApplication_DataLayer.pdb
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\bin\Debug\netcoreapp2.1\FirstDotNetApplication_RepositoryLayer.pdb
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\bin\Debug\netcoreapp2.1\FirstDotnetApplication_ServiceLayer.pdb
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\obj\Debug\netcoreapp2.1\FirstDotNetApplication_Test.csprojAssemblyReference.cache
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\obj\Debug\netcoreapp2.1\FirstDotNetApplication_Test.AssemblyInfoInputs.cache
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\obj\Debug\netcoreapp2.1\FirstDotNetApplication_Test.AssemblyInfo.cs
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\obj\Debug\netcoreapp2.1\FirstDotNetApplication_Test.csproj.CoreCompileInputs.cache
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\obj\Debug\netcoreapp2.1\FirstDotNetApplication_Test.csproj.CopyComplete
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\obj\Debug\netcoreapp2.1\FirstDotNetApplication_Test.dll
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Test\obj\Debug\netcoreapp2.1\FirstDotNetApplication_Test.pdb

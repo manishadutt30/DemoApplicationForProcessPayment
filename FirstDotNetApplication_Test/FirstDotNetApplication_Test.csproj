@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.15.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.2" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FirstDotNetApplication_DataLayer\FirstDotNetApplication_DataLayer.csproj" />
+    <ProjectReference Include="..\FirstDotNetApplication_RepositoryLayer\FirstDotNetApplication_RepositoryLayer.csproj" />
+    <ProjectReference Include="..\FirstDotnetApplication_ServiceLayer\FirstDotnetApplication_ServiceLayer.csproj" />
+  </ItemGroup>
+
+</Project>

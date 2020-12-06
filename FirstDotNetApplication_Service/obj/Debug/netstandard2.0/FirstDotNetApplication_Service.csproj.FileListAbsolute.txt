@@ -1,0 +1,4 @@
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Service\obj\Debug\netstandard2.0\FirstDotNetApplication_Service.csprojAssemblyReference.cache
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Service\obj\Debug\netstandard2.0\FirstDotNetApplication_Service.AssemblyInfoInputs.cache
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Service\obj\Debug\netstandard2.0\FirstDotNetApplication_Service.AssemblyInfo.cs
+C:\Users\m.dutt\source\repos\FirstDotNetApplication\FirstDotNetApplication_Service\obj\Debug\netstandard2.0\FirstDotNetApplication_Service.csproj.CoreCompileInputs.cache

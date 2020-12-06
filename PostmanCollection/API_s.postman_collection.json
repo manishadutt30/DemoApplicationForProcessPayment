@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "17e60746-a288-4537-ac0a-c59820f517dc",
+		"name": "API's",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post When CreditCardNumber Is not Valid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CreditCardNumber\": \"3457689756397592\",\r\n    \"CardHolderName\": \"Manisha Dutt\",\r\n    \"ExpirationDate\":\"12-10-2022\",\r\n    \"SecurityCode\":\"123\",\r\n    \"Amount\":20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/processpayment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"processpayment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post When ExpirationDate Is in Valid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CreditCardNumber\": \"5105105105105100\",\r\n    \"CardHolderName\": \"Manisha Dutt\",\r\n    \"ExpirationDate\":\"12-06-2020\",\r\n    \"SecurityCode\":\"123\",\r\n    \"Amount\":20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/processpayment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"processpayment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post When CardHolderNumber is Empty",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CreditCardNumber\": \"5105105105105100\",\r\n    \"CardHolderName\": \"\",\r\n    \"ExpirationDate\":\"12-10-2022\",\r\n    \"SecurityCode\":\"123\",\r\n    \"Amount\":20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/processpayment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"processpayment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post When Amoun is Equal to and Less Than 20 Euro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CreditCardNumber\": \"5105105105105100\",\r\n    \"CardHolderName\": \"Manisha Dutt\",\r\n    \"ExpirationDate\":\"12-10-2022\",\r\n    \"SecurityCode\":\"123\",\r\n    \"Amount\":19\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/processpayment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"processpayment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post When Amount is Between 21 and 500 Euro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CreditCardNumber\": \"5105105105105100\",\r\n    \"CardHolderName\": \"Manisha Dutt\",\r\n    \"ExpirationDate\":\"12-10-2022\",\r\n    \"SecurityCode\":\"123\",\r\n    \"Amount\":19\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/processpayment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"processpayment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post When Amount is Greater Than 500 Euro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CreditCardNumber\": \"5105105105105100\",\r\n    \"CardHolderName\": \"Manisha Dutt\",\r\n    \"ExpirationDate\":\"12-10-2022\",\r\n    \"SecurityCode\":\"123\",\r\n    \"Amount\":600\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/processpayment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"processpayment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Database connection",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CreditCardNumber\": \"5105105105105100\",\r\n    \"CardHolderName\": \"Manisha Dutt\",\r\n    \"ExpirationDate\":\"12-10-2022\",\r\n    \"SecurityCode\":\"123\",\r\n    \"Amount\":600\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/testdatabase",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"testdatabase"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update paymentInformation Table",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CreditCardNumber\": \"5105105105105100\",\r\n    \"CardHolderName\": \"Manisha Dutt\",\r\n    \"ExpirationDate\":\"12-10-2022\",\r\n    \"SecurityCode\":\"123\",\r\n    \"Amount\":1000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/paymentInformation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"paymentInformation"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
